@@ -22,7 +22,7 @@ export default function Dash() {
   useEffect(() => {
     async function fetchData() {
       const response = await axios.get(
-        `http://15.206.169.115:3000/api/v1/code?user=${user}`
+        `http://15.206.169.115:443/api/v1/code?user=${user}`
       );
       setData(response.data);
     }
