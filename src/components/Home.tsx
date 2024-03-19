@@ -39,7 +39,7 @@ export default function Home() {
     }
     setLoading(true)
     try{
-      const response = await axios.post("http://15.206.169.115:443/api/v1/create", {
+      const response = await axios.post("http://65.0.182.126/api/v1/create", {
         username: username,
         language: lang,
         stdin: stdin,
